@@ -29,9 +29,13 @@
     padding-top: 30px;
 }
 
-#title2 button{
-    height:60px;
-    width:150px;
+#title2 input{
+    height:50px;
+    width:140px;
+    border-radius:80px;
+    border-color:black;
+    margin-left:10px;
+    margin-top:0px;
 }
 #input{
     border-radius: 70px;
@@ -116,9 +120,23 @@
     font-size: 100px;
 
 } */
+#noOfApple{
+    width:152px;
+}
+#noOfOrange{
+    width:152px;
+}
+#noOfBanana{
+    width:152px;
+}
 .total{
     margin-top:-70px; 
     padding-left: 520px;
     color: red; 
     font-size: 45px;
+}
+#totalbill{
+    font-size:2em;
+    color:red;
+   text-align: center;
 }

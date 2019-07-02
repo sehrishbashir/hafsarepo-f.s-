@@ -11,43 +11,43 @@
 // }
 
 let total = 0;
-let pocketmoney=0;
+
 const costOfApple = 10;
 let noOfApple = 0;
-let AppleElem  = document.querySelector("#noOfApple");
+let appleElem  = document.querySelector("#noOfApple");
 
 function addApple(){
     noOfApple++;
     appleElem .value = noOfApple;
     total = total + costOfApple;
-    document.querySelector("#totalbill").innerHTML = total;
+    document.querySelector("#totalamount").innerHTML = total;
 }
 function subApple(){
     if (noOfApple > 0){
         noOfApple--;
         appleElem .value = noOfApple;
         total = total - costOfApple;
-        document.querySelector("#totalbill").innerHTML = total;
+        document.querySelector("#totalamount").innerHTML = total;
     }
 }
 
 
 const costOfOrange = 15;
 let noOfOrange = 0;
-let OrangeElem = document.querySelector("#noOfOranges");
+let orangeElem = document.querySelector("#noOfOrange");
 
 function addOrange(){
      noOfOrange++;
-     OrangeElem . value = noOfOrange;
-     total = total + costOfOranges;
-     document.querySelector("#totalbill").innerHTML = total;
+     orangeElem .value = noOfOrange;
+     total = total + costOfOrange;
+     document.querySelector("#totalamount").innerHTML = total;
 }
 function subOrange(){
     if (noOfOrange > 0){
         noOfOrange--;
-        OrangeElem.value = noOfOrange;
+        orangeElem.value = noOfOrange;
         total = total - costOfOranges;
-        document.querySelector("#totalbill").innerHTML = total;
+        document.querySelector("#totalamount").innerHTML = total;
     }
 }
 
@@ -60,13 +60,14 @@ function addBanana(){
     noOfBanana++;
     BananaElem.value = noOfBanana;
     total = total + costOfBanana;
-    document.querySelector("#totalbill").innerHTML = total;
+    document.querySelector("#totalamount").innerHTML = total;
 }
 function subBanana(){
     if (noOfBanana > 0){
     noOfBanana--;
     BananaElem . value = noOfBanana;
     total = total - costOfBanana;
-    document.querySelector("#totalbill").innerHTML = total;
+    document.querySelector("#totalamount").innerHTML = total;
     }
 }
+
